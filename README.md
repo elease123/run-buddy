@@ -12,3 +12,5 @@ Https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Elease Utley
+
+# Run Buddy Inc.
