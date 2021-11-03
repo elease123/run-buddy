@@ -47,7 +47,7 @@
    <div class="hero-form">
        <h3>Get Started Today</h3>
        <p>Fill out this form and one of our trainers will schedule a consult.</p>
-<!--add form element-->
+
     <form>
       <label for="name">Enter full name:</label>
       <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
@@ -77,7 +77,6 @@
 
 <!--"what we do" section-->
     <section id="what-we-do" class="intro">
-<!--Wrap every h2 with a class of "section-title" in this div!-->
     <div class="flex-row">
         <h2 class="section-title primary-border">What We Do</h2> 
     </div>
@@ -90,42 +89,45 @@
         </p>
     </div>
     </section>
+<!--"what we do" end-->
 
-<!--"what you do" section-->
+<!--"what you do" start-->
     <section id="what-you-do" class="steps">
+        <div class="flex-row">
         <h2 class="section-title secondary-border">What You Do</h2> 
-    
-    <div>
-<!--insert this img element-->
+        </div>
         <div class="step">
+            <h3>Step 1.</h3>
             <div class="step-info">
                 <div class="step-img">
                 <img src="./assets/images/step-1.svg" alt="" />
                 </div>
-        <div class="step-text">
-            <h4>Step 1: <span>Fill out the Form Above.</span></h4>
+                <div class="step-text">
+            <h4>Fill out the Form Above</h4>
             <p>You're already here, so why not?</p>
         </div>
       </div>
     </div>
-
-    <div>
-        <div class="step">
+    <div class="step">
+        <h3>Step 2.</h3>
             <div class="step-info">
                 <div class="step-img">
                 <image src="./assets/images/step-2.svg" alt="" />
-            <h3>Step 2: <span>Consult with one of our Trainers.</span></h3>
+                </div>
+                <div class="step-text">
+            <h4>>Consult with one of our Trainers</h4>
             <p>Are you here to build muscle, lose weight, or just feel good?</p>
         </div>
       </div>
     </div>
-
-    <div>
-        <div class="step">
+    <div class="step">
+        <h3>Step 3.</h3>
             <div class="step-info">
                 <div class="step-img">
                 <image src="./assets/images/step-3.svg" alt="" />
-            <h3>Step 3: <span>Get Running.</span></h3>
+                </div>
+                <div class="step-text">
+            <h4>Get Running</h4>
             <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
         </div>
       </div>
@@ -133,80 +135,80 @@
 
     <div>
         <div class="step">
+            <h3>Step 4.</h3>
             <div class="step-info">
                 <div class="step-img">
                 <image src="./assets/images/step-4.svg" alt="" />
-            <h3>Step 4: <span>See Results.</span></h3>
+                </div>
+                <div class="step-text">
+            <h4>See Results</h4>
             <p>Bi-weekly check-ins with your trainer will keep you focused.</p>
         </div>
       </div>
     </div>
     </section>
+<!--"what you do" end-->
         
 <!--"meet the trainers"section-->
-    <section id="your-trainers" class="trainers">
+    <section id="your-trainers">
+        <div class="flex-row">
         <h2 class="section-title primary-border">Meet The Trainers</h2>
+        </div>
+
+        <div class="trainers">
         <article class="trainer">
             <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout" />
-            <div class="trainer-bio text-left">
-                <h3>Arron Stephens</h3>
-                <h4>Speed / Strength</h4>
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Arron Stephens</h3>
+                <h4 class="trainer-role">Speed / Strength</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quis blanditiis suscipit quo facilis quas ab sunt architecto, 
                     facere fugiat voluptatibus tenetur excepturi ullam quod laudantium accusamus repellendus omnis! Autem.
                 </p>
-
             </div>
         </article>
 <!--second trainer bio-->
         <article class="trainer">
-            <div class="trainer-bio text-right">
-                <h3>Joanna Gill</h3>
-                <h4>Endurance</h4>
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after workout" />
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Joanna Gill</h3>
+                <h4 class="trainer-role">Endurance</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa nostrum, ducimus eveniet repellat enim iure tempore, 
                    corporis libero quos illo veritatis reiciendis in necessitatibus autem neque earum tempora asperiores!
                 </p>
             </div>
-            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after workout" />
         </article>
 <!--third trainer bio--> 
         <article class="trainer">
             <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband" />
-            <div class="trainer-bio text-left">
-                <h3>Harry "the headband" Smith</h3>
-                <h4>Strength</h4>
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Harry "the headband" Smith</h3>
+                <h4 class="trainer-role">Strength</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia repellat eum nisi harum! Sit temporibus impedit aliquam ducimus, 
                    consequatur corporis quidem nemo, labore dolores soluta quas quis amet similique mollitia!
                 </p>
             </div>
         </article>
+      </div>
     </section>   
-        
+<!--"meet the trainers" end-->
+
 <!--"reach out" section-->
     <section id="reach-out" class="contact">
-    <h2 class="section-title secondary-border">Reach Out</h2>
-    <div class="contact-info">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.4009121197823!2d-98.49826398489951!3d29.417076782114957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58b1c44c3231%3A0x8439f8c6c6935967!2sS%20Main%20Ave%2C%20San%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1635481855332!5m2!1sen!2sus"
-        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="contact-form">
-            <h3>Contact Us</h3>
-            <form>
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" />
-
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
+        <div class="flex-row">
+           <h2 class="section-title secondary-border">Reach Out</h2>
         </div>
-    <div>
+
+
+    <div class="contact-info">
+       <div>
         <h3>Run Buddy</h3>
         <p>
             Any questions or concerns before signing up?
             <br />
             Let us know and we'll be happy to talk to you!
         </p>
+
         <address>
             55 Main Street <br/>
             San antonio,TX <br/>
@@ -214,10 +216,29 @@
             P: 555.RUN.BUDZ (555-786-2839) <br/>
             E: <a href="mailto:info@runbuddy.io">info@runbuddy</a>
         </address>
-       </div>
+       
       </div>
+
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />
+      
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </div> 
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.4009121197823!2d-98.49826398489951!3d29.417076782114957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58b1c44c3231%3A0x8439f8c6c6935967!2sS%20Main%20Ave%2C%20San%20Antonio%2C%20TX!5e0!3m2!1sen!2sus!4v1635481855332!5m2!1sen!2sus"
+        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
     </section>
-    
+<!--"reach out" end-->   
 
 <!--footer-->
     <footer>
@@ -227,5 +248,5 @@
             &copy; 2019 Run Buddy, Inc.
         </div>
     </footer>
-    </body>
+  </body>
 </html>
